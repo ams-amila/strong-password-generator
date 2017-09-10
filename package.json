@@ -1,0 +1,40 @@
+{
+  "name": "strong-password-generator",
+  "version": "1.0.5",
+  "description": "Strong Password Generator is a utility module which provides straight-forward, powerful password generation function.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ams-amila/strong-password-generator.git"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "strong",
+    "password",
+    "javascript",
+    "password",
+    "password",
+    "node",
+    "module"
+  ],
+  "author": "Amila Madusanka <ams.amila@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ams-amila/strong-password-generator/issues"
+  },
+  "homepage": "https://github.com/ams-amila/strong-password-generator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "peerDependencies": {
+    "random-word-by-length": "^0.1.0",
+    "randomstring": "^1.1.5"
+  }
+}
